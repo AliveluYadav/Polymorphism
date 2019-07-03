@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Cat.h"
+#import "Cheetah.h"
+#import "Tiger.h"
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+   
+    Tiger *tiger=[[Tiger alloc]init];
+    [tiger aboutAnimal];
+    [tiger eatingHabits];
+    [tiger runningSpeed];
+    
     return 0;
 }

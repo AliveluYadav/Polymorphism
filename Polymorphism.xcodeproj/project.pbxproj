@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D417CB161FF24EFE00AA9084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D417CB151FF24EFE00AA9084 /* main.m */; };
+		D417CB1E1FF24F3000AA9084 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = D417CB1D1FF24F3000AA9084 /* Cat.m */; };
+		D417CB241FF24F6F00AA9084 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = D417CB231FF24F6F00AA9084 /* Tiger.m */; };
+		D417CB271FF2596C00AA9084 /* Cheetah.m in Sources */ = {isa = PBXBuildFile; fileRef = D417CB261FF2596C00AA9084 /* Cheetah.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		D417CB121FF24EFE00AA9084 /* Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
 		D417CB151FF24EFE00AA9084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D417CB1C1FF24F3000AA9084 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		D417CB1D1FF24F3000AA9084 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		D417CB221FF24F6F00AA9084 /* Tiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		D417CB231FF24F6F00AA9084 /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		D417CB251FF2596C00AA9084 /* Cheetah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cheetah.h; sourceTree = "<group>"; };
+		D417CB261FF2596C00AA9084 /* Cheetah.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cheetah.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				D417CB151FF24EFE00AA9084 /* main.m */,
+				D417CB1C1FF24F3000AA9084 /* Cat.h */,
+				D417CB1D1FF24F3000AA9084 /* Cat.m */,
+				D417CB221FF24F6F00AA9084 /* Tiger.h */,
+				D417CB231FF24F6F00AA9084 /* Tiger.m */,
+				D417CB251FF2596C00AA9084 /* Cheetah.h */,
+				D417CB261FF2596C00AA9084 /* Cheetah.m */,
 			);
 			path = Polymorphism;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D417CB1E1FF24F3000AA9084 /* Cat.m in Sources */,
+				D417CB241FF24F6F00AA9084 /* Tiger.m in Sources */,
+				D417CB271FF2596C00AA9084 /* Cheetah.m in Sources */,
 				D417CB161FF24EFE00AA9084 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
